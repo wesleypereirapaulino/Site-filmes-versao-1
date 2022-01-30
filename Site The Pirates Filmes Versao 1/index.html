@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Site de filmes</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/normalize.css-master/normalize.css">
+	<meta id="viewport" name="viewport" content="width=device-width, user scalable=no">
+	<script type="text/javascript" src="assets/js/script.js"></script>	
+</head>
+<body>
+	<div class="topo">
+		<div class="topoint">
+			<div class="left">
+				<div class="datatopo">SEXTA-FEIRA, 29 JUNHO 2018</div>
+				<div class="sobre">
+					<ul>
+						<li><a href="file:///D:/PHP%20EDITORES/HTML5%20E%20CSS3/MEUS%20PROJETOS%20TESTES/Projeto%20site%20de%20filmes/index.html">DMCA</a></li>
+						<li><a href="file:///D:/PHP%20EDITORES/HTML5%20E%20CSS3/MEUS%20PROJETOS%20TESTES/Projeto%20site%20de%20filmes/index.html">Termos de Uso</a></li>
+						<li><a href="file:///D:/PHP%20EDITORES/HTML5%20E%20CSS3/MEUS%20PROJETOS%20TESTES/Projeto%20site%20de%20filmes/index.html">Tutoriais</a></li>
+						
+					</ul>
+				</div>
+			</div>			
+			<div class="right">
+				<form method="Post">		
+				<img src="assets/images/iconerss.png" border="0" width="15" height="15" title="Rss"/>	<input onfocus="this.value='';" class="caixa" type="text" name="buscatopo" value="Busca..." autocomplete="off" />
+				<div class="containerbusca">
+				<input class="lupa" type="image" src="assets/images/search.png" border="0" width="31" height="30" title="Buscar">
+				</form>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<!-- Bloco referente Area do slide topo -->
+	<div class="containerslides">	
+			<div class="slideshow" id="slideshow">
+				<div class="slideshowarea">
+					<img class="slide" src="assets/images/bannertopoeditado.png"/>
+					<img class="slide" src="assets/images/velozes.png"/>
+					<img class="slide" src="assets/images/jurassic-world-fallen-kingdom-logo-cropped.jpg"/>
+					<img class="slide" src="assets/images/guerrainfinita.jpg"/>					
+				</div>
+					 <img class="menuhamburguer" onclick="abrisubmenu('exibir_menu_mobile')" src="assets/images/menu.png" border="0" width="50" title="MENU">
+			</div>		
+	</div>
+	<!-- Bloco referente Area do slide topo -->	
+	<!--BLOCO DA AREA DE MENUS PRINCIPAL -->	
+	<div class="container-nav">	
+		<div class="containernavint">
+			
+			<nav class="nav">
+				<div class="menu">	
+					<ul id="exibir_menu_mobile">
+						<li class="house">
+							<img src="assets/images/casa.jpg" border="0" width="30">
+						</li>	
+						<li id="formulario">
+							<center><img class="housemobile" src="assets/images/house.png" border="0" width="20" ></center>
+							<div onclick="abrisubmenu('exibir_menu_mobile')"  class="fechamenumobile" title="FECHAR">X</div>
+							<form method="post">
+								<input class="inputextos" type="text" name="pesquisa" placeholder="PESQUISAR" required>								
+								<button>PESQUISAR</button>			
+							</form>
+						</li>
+						<li>Series</li>
+						<li>3D</li>
+						<li>1080p</li>
+						<li>720p</li>
+						<li>4k</li>
+						<li>2017</li>
+						<li>2018</li>
+						<li class="seta">Categorias
+							<img id="setadosubmenu" src="assets/images/setabrancabaixo.png" border="0" width="15" height="15"/>
+							<img id="setadosubmenudois" src="assets/images/arrow-red.png" border="0" width="15" height="15"/>
+							<div class="submenu">
+								<a href=""><div class="itens">Ação</div></a>
+								<a href=""><div class="itens">Amecia Crime</div></a>
+								<a href=""><div class="itens">Animações</div></a>
+								<a href=""><div class="itens">Animes</div></a>
+								<a href=""><div class="itens">Aventura</div></a>
+								<a href=""><div class="itens">Comédia</div></a>
+								<a href=""><div class="itens">Crime</div></a>
+								<a href=""><div class="itens">Documentários</div></a>
+								<a href=""><div class="itens">Drama</div></a>
+								<a href=""><div class="itens">Épico</div></a>
+								<a href=""><div class="itens">Esportes</div></a>
+								<a href=""><div class="itens">Família</div></a>
+							</div>
+						</li>
+					</ul>
+					
+				</div>
+				<div class="botao">
+					<img src="assets/images/flechabotao.jpg" border="0" width="25" title="Aleatorio"/>
+				</div>
+			</nav>
+			
+		</div>
+	</div>
+	<!--BLOCO DA AREA DE MENUS PRINCIPAL -->	
+	<!--BLOCO DA AREA DAS SERIES ATUALIZADAS -->	
+	<div class="container-series">
+		<div class="seriesint">
+			<div class="series_titulo">SERIES ATUALIZADAS:</div>
+			<div class="seriesatualizadas">
+				<div class="pai pai_um">
+					<div class="container">
+						<div class="titulo"><a href="">Theblacklist 1 Temporada</a></div>
+						<div class="conteudo"><img src="assets/images/theblacklist.jpg" border="0" width="140" height="189" /></div>
+					</div>
+				</div>
+				
+				<div class="pai pai_dois">
+					<div class="container">
+						<div class="titulo"><a href="">Busca Implacavel 1080</a></div>
+						<div class="conteudo"><img src="assets/images/imgbuscaimplacavel.jpg" border="0" width="140" height="189" /></div>
+					</div>
+				</div>
+				
+				<div class="pai pai_tres">
+					<div class="container">
+						<div class="titulo"><a href="http://www.thepiratefilmeshd.com/lucifer-3a-temporada-2017-torrent-hdtv-720p-legendado-download/">Lucifer 2 Temporada</a></div>
+						<div class="conteudo"><img src="assets/images/luciferimg.jpg" border="0" width="140" height="189" /></div>
+					</div>
+				</div>
+
+				<div class="pai pai_quatro">
+					<div class="container">
+						<div class="titulo"><a href="">Super Girl 2 Temporada</a></div>
+						<div class="conteudo"><img src="assets/images/supergirl.jpg" border="0" width="140" height="189" /></div>
+					</div>
+				</div>
+
+				<div class="pai pai_cinco">
+					<div class="container">
+						<div class="titulo"><a href="">The BigBang Theory</a></div>
+						<div class="conteudo"><img src="assets/images/thebigbang.jpg" border="0" width="140" height="189" /></div>
+					</div>
+				</div>
+
+				<div class="pai pai_seis">
+					<div class="container">
+						<div class="titulo"><a href="">The 100 5ª Temporada</a></div>
+						<div class="conteudo"><img src="assets/images/the100.jpg" border="0" width="140" height="189" /></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- CONTAINER DE NAVEGACAO DOS FILMES AREA PRINCIPAL -->	
+	<div class="containercentral">
+		<div class="containercentral_int">			
+			<div class="containercentral_int_left">
+				<div class="stripe"><img src="assets/images/stripeum.png" border="0" width="237" height="16" />
+					<span>Filmes + Acessados !</span>
+					<div class="containerfilmes">
+						<div class="filmes">
+						<ul>
+							<li><img src="assets/images/banner lado esquerdo/panterabanner.jpg" border="0" width="210" height="317" title="Pantera Negra 1080 e 720 HD."/></li>
+						</ul>
+						</div>
+						<br>
+						<div class="filmes">
+						<ul>
+							<li><img src="assets/images/banner lado esquerdo/planetadosmacacosbanner.jpg" border="0" width="210" height="317" title="PLANETA DOS MACACOS A GUERRA 3D 1080 e 720 HD."/></li>
+						</ul>
+						</div>
+						<br>
+						<div class="filmes">
+						<ul>
+							<li><img src="assets/images/banner lado esquerdo/romancebanner.jpg" border="0" width="210" height="317" title="MEU ROMANCE PERFEITO 1080 e 720 HD"/></li>
+						</ul>
+						</div>
+						<br>
+						<div class="filmes">
+						<ul>
+							<li><img src="assets/images/banner lado esquerdo/ellbanner.jpg" border="0" width="210" height="317"title="THE LEISURE SEEKER 1080 e 720 HD"/></li>
+						</ul>
+						</div>
+						<br>
+						<div class="filmes">
+						<ul>
+							<li><img src="assets/images/banner lado esquerdo/acabanabanner.jpg" border="0" width="210" height="317"title="A CABANA 1080 e 720 HD"/></li>
+						</ul>
+						</div>
+						<br>
+						<div class="filmes ultimo_elemento">
+						<ul>
+							<li><img src="assets/images/banner lado esquerdo/50tonsdepirocabanner.jpg" border="0" width="210" height="317"title="50 TONS DE CINZA MAIS ESCURO 1080 e 720 HD"/></li>
+						</ul>
+						</div>
+						<br>
+					</div>					
+				</div>
+			</div>
+
+			<!-- O BLOCO ABAIXO É REFERENTE AO CONTAINER CENTRO -->
+			<div class="containercentral_int_centro">
+					<div class="stripecentro"><img src="assets/images/stripeum.png" border="0" width="532" height="15"/></div>
+					<span>FILMES & SÉRIES</span>
+					<!-- desse bloco em diantes filmes do centro da pagina-->
+					<!-- 1 BLOCO DE CONTEUDO -->
+					<div class="containerfilmescentropagina">
+						<div class="conteudos">
+							<div class="tituloprincipal">Lucifer 3ª Temporada (2017) Torrent HDTV 720p Legendado e Dublado Download</div>
+							<div class="links">
+							<img src="assets/images/icones/user.png"border="0" width="11"/><a href="">The Pirate Filmes</a><img src="assets/images/icones/clock-with-white-face.png" border="0" width="11"><a href="">26/08/2018</a><img src="assets/images/icones/folder-symbol.png" border="0" width="11"/><a href="">1080,</a><a href="">Crime,</a><a href="">Drama,</a><a href="">Fantasia,</a><a href="">MKV,</a><a href="">MP4,</a><a href="">Séries</a>
+							</div>
+							<div class="bannerdofilme">
+								<img src="assets/images/centrobanne/lucifer.jpg" border="0" width="210" height="315"/>
+
+							</div>
+							<div class="descricaodoconteudo">
+									<ul>
+									<li id="informacoes"><strong>»INFORMAÇÕES«</strong></li><br>
+									<li><strong>Baixar Serie:</strong> Lucifer</li>
+									<li><strong>Formato:</strong> MP4 – MKV</li>
+									<li><strong>Qualidade:</strong> HDTV | 720p | 1080p</li>
+									<li><strong>Áudio:</strong> Inglês</li>
+									<li><strong>Legenda:</strong> Português (Externa)</li>
+									<li><strong>Servidor:</strong> Torrent</li>
+									<li><strong>Gênero:</strong> Crime, Drama, Fantasia</li>
+									<li><strong>Tamanho:</strong>260 MB, 980 MB, 3.58 GB</li>
+									<li><strong>Qualidade de Áudio:</strong> 10</li>
+									<li><strong>Qualidade de Vídeo:</strong> 10</li>
+									<li><strong>Ano de Lançamento:</strong> 2017</li>
+									<li><strong>Duração:</strong> +/-  22 Min...</li><br>
+									<li class="nota"><strong id="imdb">IMDb:</strong> 8,8/10</li><br>
+									<li class="episodio">EPISÓDIO 07(NOVO) Dual</li>
+								</ul>				
+							</div>
+							<div class="baixar">
+								<div class="baixarfilme">BAIXAR FILME</div>
+							</div>
+							<div class="redessocial">
+								<div class="redesocialfacebook">
+									<img src="assets/images/facebook-icone-icon.png" border="0" width="13" height="13"/><label>Facebook</label>
+								</div>
+								<div class="redesocialgoogle">
+									<label class="google">G+</label><label class="googlemais">Google +</label>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<!-- ** TERMINO BLOCO INTERNO DO CENTRO DO CONTAINER FILME 1 ** -->
+					<!-- ** ==================================================== ** -->
+
+					<!-- 2 BLOCO DE CONTEUDO -->
+					<div class="containerfilmescentropagina">
+						<div class="conteudos">
+							<div class="tituloprincipal">Lucifer 3ª Temporada (2017) Torrent HDTV 720p Legendado e Dublado Download</div>
+							<div class="links">
+							<img src="assets/images/icones/user.png"border="0" width="11"/><a href="">The Pirate Filmes</a><img src="assets/images/icones/clock-with-white-face.png" border="0" width="11"><a href="">26/08/2018</a><img src="assets/images/icones/folder-symbol.png" border="0" width="11"/><a href="">1080,</a><a href="">Crime,</a><a href="">Drama,</a><a href="">Fantasia,</a><a href="">MKV,</a><a href="">MP4,</a><a href="">Séries</a>
+							</div>
+							<div class="bannerdofilme">
+								<img src="assets/images/centrobanne/lucifer.jpg" border="0" width="210" height="315"/>
+
+							</div>
+							<div class="descricaodoconteudo">
+									<ul>
+									<li id="informacoes"><strong>»INFORMAÇÕES«</strong></li><br>
+									<li><strong>Baixar Serie:</strong> Lucifer</li>
+									<li><strong>Formato:</strong> MP4 – MKV</li>
+									<li><strong>Qualidade:</strong> HDTV | 720p | 1080p</li>
+									<li><strong>Áudio:</strong> Inglês</li>
+									<li><strong>Legenda:</strong> Português (Externa)</li>
+									<li><strong>Servidor:</strong> Torrent</li>
+									<li><strong>Gênero:</strong> Crime, Drama, Fantasia</li>
+									<li><strong>Tamanho:</strong>260 MB, 980 MB, 3.58 GB</li>
+									<li><strong>Qualidade de Áudio:</strong> 10</li>
+									<li><strong>Qualidade de Vídeo:</strong> 10</li>
+									<li><strong>Ano de Lançamento:</strong> 2017</li>
+									<li><strong>Duração:</strong> +/-  22 Min...</li><br>
+									<li class="nota"><strong id="imdb">IMDb:</strong> 8,8/10</li><br>
+									<li class="episodio">EPISÓDIO 07(NOVO) Dual</li>
+								</ul>				
+							</div>
+							<div class="baixar">
+								<div class="baixarfilme">BAIXAR FILME</div>
+							</div>
+							<div class="redessocial">
+								<div class="redesocialfacebook">
+									<img src="assets/images/facebook-icone-icon.png" border="0" width="13" height="13"/><label>Facebook</label>
+								</div>
+								<div class="redesocialgoogle">
+									<label class="google">G+</label><label class="googlemais">Google +</label>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<!-- ** TERMINO BLOCO INTERNO DO CENTRO DO CONTAINER FILME 2* -->
+					<!-- ** ==================================================== ** -->
+					<!-- 3 BLOCO DE CONTEUDO -->
+					<div class="containerfilmescentropagina">
+						<div class="conteudos">
+							<div class="tituloprincipal">Lucifer 3ª Temporada (2017) Torrent HDTV 720p Legendado e Dublado Download</div>
+							<div class="links">
+							<img src="assets/images/icones/user.png"border="0" width="11"/><a href="">The Pirate Filmes</a><img src="assets/images/icones/clock-with-white-face.png" border="0" width="11"><a href="">26/08/2018</a><img src="assets/images/icones/folder-symbol.png" border="0" width="11"/><a href="">1080,</a><a href="">Crime,</a><a href="">Drama,</a><a href="">Fantasia,</a><a href="">MKV,</a><a href="">MP4,</a><a href="">Séries</a>
+							</div>
+							<div class="bannerdofilme">
+								<img src="assets/images/centrobanne/lucifer.jpg" border="0" width="210" height="315"/>
+							</div>
+							<div class="descricaodoconteudo">
+									<ul>
+									<li id="informacoes"><strong>»INFORMAÇÕES«</strong></li><br>
+									<li><strong>Baixar Serie:</strong> Lucifer</li>
+									<li><strong>Formato:</strong> MP4 – MKV</li>
+									<li><strong>Qualidade:</strong> HDTV | 720p | 1080p</li>
+									<li><strong>Áudio:</strong> Inglês</li>
+									<li><strong>Legenda:</strong> Português (Externa)</li>
+									<li><strong>Servidor:</strong> Torrent</li>
+									<li><strong>Gênero:</strong> Crime, Drama, Fantasia</li>
+									<li><strong>Tamanho:</strong>260 MB, 980 MB, 3.58 GB</li>
+									<li><strong>Qualidade de Áudio:</strong> 10</li>
+									<li><strong>Qualidade de Vídeo:</strong> 10</li>
+									<li><strong>Ano de Lançamento:</strong> 2017</li>
+									<li><strong>Duração:</strong> +/-  22 Min...</li><br>
+									<li class="nota"><strong id="imdb">IMDb:</strong> 8,8/10</li><br>
+									<li class="episodio">EPISÓDIO 07(NOVO) Dual</li>
+								</ul>				
+							</div>
+							<div class="baixar">
+								<div class="baixarfilme">BAIXAR FILME</div>
+							</div>
+							<div class="redessocial">
+								<div class="redesocialfacebook">
+									<img src="assets/images/facebook-icone-icon.png" border="0" width="13" height="13"/><label>Facebook</label>
+								</div>
+								<div class="redesocialgoogle">
+									<label class="google">G+</label><label class="googlemais">Google +</label>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<!-- ** TERMINO BLOCO INTERNO DO CENTRO DO CONTAINER FILME 3* -->
+					<!-- ** ==================================================== ** -->
+					<!-- 4 BLOCO DE CONTEUDO -->
+					<div class="containerfilmescentropagina">
+						<div class="conteudos">
+							<div class="tituloprincipal">Lucifer 3ª Temporada (2017) Torrent HDTV 720p Legendado e Dublado Download</div>
+							<div class="links">
+							<img src="assets/images/icones/user.png"border="0" width="11"/><a href="">The Pirate Filmes</a><img src="assets/images/icones/clock-with-white-face.png" border="0" width="11"><a href="">26/08/2018</a><img src="assets/images/icones/folder-symbol.png" border="0" width="11"/><a href="">1080,</a><a href="">Crime,</a><a href="">Drama,</a><a href="">Fantasia,</a><a href="">MKV,</a><a href="">MP4,</a><a href="">Séries</a>
+							</div>
+							<div class="bannerdofilme">
+								<img src="assets/images/centrobanne/lucifer.jpg" border="0" width="210" height="315"/>
+							</div>
+							<div class="descricaodoconteudo">
+									<ul>
+									<li id="informacoes"><strong>»INFORMAÇÕES«</strong></li><br>
+									<li><strong>Baixar Serie:</strong> Lucifer</li>
+									<li><strong>Formato:</strong> MP4 – MKV</li>
+									<li><strong>Qualidade:</strong> HDTV | 720p | 1080p</li>
+									<li><strong>Áudio:</strong> Inglês</li>
+									<li><strong>Legenda:</strong> Português (Externa)</li>
+									<li><strong>Servidor:</strong> Torrent</li>
+									<li><strong>Gênero:</strong> Crime, Drama, Fantasia</li>
+									<li><strong>Tamanho:</strong>260 MB, 980 MB, 3.58 GB</li>
+									<li><strong>Qualidade de Áudio:</strong> 10</li>
+									<li><strong>Qualidade de Vídeo:</strong> 10</li>
+									<li><strong>Ano de Lançamento:</strong> 2017</li>
+									<li><strong>Duração:</strong> +/-  22 Min...</li><br>
+									<li class="nota"><strong id="imdb">IMDb:</strong> 8,8/10</li><br>
+									<li class="episodio">EPISÓDIO 07(NOVO) Dual</li>
+								</ul>				
+							</div>
+							<div class="baixar">
+								<div class="baixarfilme">BAIXAR FILME</div>
+							</div>
+							<div class="redessocial">
+								<div class="redesocialfacebook">
+									<img src="assets/images/facebook-icone-icon.png" border="0" width="13" height="13"/><label>Facebook</label>
+								</div>
+								<div class="redesocialgoogle">
+									<label class="google">G+</label><label class="googlemais">Google +</label>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<!-- ** TERMINO BLOCO INTERNO DO CENTRO DO CONTAINER FILME 4* -->
+					<!-- ** ==================================================== ** -->
+					<!-- 5 BLOCO DE CONTEUDO -->
+					<div class="containerfilmescentropagina">
+						<div class="conteudos">
+							<div class="tituloprincipal">Lucifer 3ª Temporada (2017) Torrent HDTV 720p Legendado e Dublado Download</div>
+							<div class="links">
+							<img src="assets/images/icones/user.png"border="0" width="11"/><a href="">The Pirate Filmes</a><img src="assets/images/icones/clock-with-white-face.png" border="0" width="11"><a href="">26/08/2018</a><img src="assets/images/icones/folder-symbol.png" border="0" width="11"/><a href="">1080,</a><a href="">Crime,</a><a href="">Drama,</a><a href="">Fantasia,</a><a href="">MKV,</a><a href="">MP4,</a><a href="">Séries</a>
+							</div>
+							<div class="bannerdofilme">
+								<img src="assets/images/centrobanne/lucifer.jpg" border="0" width="210" height="315"/>
+
+							</div>
+							<div class="descricaodoconteudo">
+									<ul>
+									<li id="informacoes"><strong>»INFORMAÇÕES«</strong></li><br>
+									<li><strong>Baixar Serie:</strong> Lucifer</li>
+									<li><strong>Formato:</strong> MP4 – MKV</li>
+									<li><strong>Qualidade:</strong> HDTV | 720p | 1080p</li>
+									<li><strong>Áudio:</strong> Inglês</li>
+									<li><strong>Legenda:</strong> Português (Externa)</li>
+									<li><strong>Servidor:</strong> Torrent</li>
+									<li><strong>Gênero:</strong> Crime, Drama, Fantasia</li>
+									<li><strong>Tamanho:</strong>260 MB, 980 MB, 3.58 GB</li>
+									<li><strong>Qualidade de Áudio:</strong> 10</li>
+									<li><strong>Qualidade de Vídeo:</strong> 10</li>
+									<li><strong>Ano de Lançamento:</strong> 2017</li>
+									<li><strong>Duração:</strong> +/-  22 Min...</li><br>
+									<li class="nota"><strong id="imdb">IMDb:</strong> 8,8/10</li><br>
+									<li class="episodio">EPISÓDIO 07(NOVO) Dual</li>
+								</ul>				
+							</div>
+							<div class="baixar">
+								<div class="baixarfilme">BAIXAR FILME</div>
+							</div>
+							<div class="redessocial">
+								<div class="redesocialfacebook">
+									<img src="assets/images/facebook-icone-icon.png" border="0" width="13" height="13"/><label>Facebook</label>
+								</div>
+								<div class="redesocialgoogle">
+									<label class="google">G+</label><label class="googlemais">Google +</label>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<!-- ** TERMINO BLOCO INTERNO DO CENTRO DO CONTAINER FILME 5* -->
+					<!-- ** ==================================================== ** -->
+					<!-- 6 BLOCO DE CONTEUDO -->
+					<div class="containerfilmescentropagina">
+						<div class="conteudos">
+							<div class="tituloprincipal">Lucifer 3ª Temporada (2017) Torrent HDTV 720p Legendado e Dublado Download</div>
+							<div class="links">
+							<img src="assets/images/icones/user.png"border="0" width="11"/><a href="">The Pirate Filmes</a><img src="assets/images/icones/clock-with-white-face.png" border="0" width="11"><a href="">26/08/2018</a><img src="assets/images/icones/folder-symbol.png" border="0" width="11"/><a href="">1080,</a><a href="">Crime,</a><a href="">Drama,</a><a href="">Fantasia,</a><a href="">MKV,</a><a href="">MP4,</a><a href="">Séries</a>
+							</div>
+							<div class="bannerdofilme">
+								<img src="assets/images/centrobanne/lucifer.jpg" border="0" width="210" height="315"/>
+
+							</div>
+							<div class="descricaodoconteudo">
+									<ul>
+									<li id="informacoes"><strong>»INFORMAÇÕES«</strong></li><br>
+									<li><strong>Baixar Serie:</strong> Lucifer</li>
+									<li><strong>Formato:</strong> MP4 – MKV</li>
+									<li><strong>Qualidade:</strong> HDTV | 720p | 1080p</li>
+									<li><strong>Áudio:</strong> Inglês</li>
+									<li><strong>Legenda:</strong> Português (Externa)</li>
+									<li><strong>Servidor:</strong> Torrent</li>
+									<li><strong>Gênero:</strong> Crime, Drama, Fantasia</li>
+									<li><strong>Tamanho:</strong>260 MB, 980 MB, 3.58 GB</li>
+									<li><strong>Qualidade de Áudio:</strong> 10</li>
+									<li><strong>Qualidade de Vídeo:</strong> 10</li>
+									<li><strong>Ano de Lançamento:</strong> 2017</li>
+									<li><strong>Duração:</strong> +/-  22 Min...</li><br>
+									<li class="nota"><strong id="imdb">IMDb:</strong> 8,8/10</li><br>
+									<li class="episodio">EPISÓDIO 07(NOVO) Dual</li>
+								</ul>				
+							</div>
+							<div class="baixar">
+								<div class="baixarfilme">BAIXAR FILME</div>
+							</div>
+							<div class="redessocial">
+								<div class="redesocialfacebook">
+									<img src="assets/images/facebook-icone-icon.png" border="0" width="13" height="13"/><label>Facebook</label>
+								</div>
+								<div class="redesocialgoogle">
+									<label class="google">G+</label><label class="googlemais">Google +</label>
+								</div>
+							</div>
+						</div>	
+					</div>
+					<!-- ** TERMINO BLOCO INTERNO DO CENTRO DO CONTAINER FILME 6* -->
+					<!-- ** ==================================================== ** -->
+			</div>
+
+			<div class="containercentral_int_right">
+					<div class="stripe"><img src="assets/images/stripeum.png" border="0" width="237" height="16" />
+					<span>SÉRIES + ACESSADOS !</span>
+					
+						<div class="containerfilmes">
+						<div class="filmes">
+						<ul>
+							<li><img src="assets/images/banner lado direito/19NPjmN6o3QGYfu8WnzgDSx75Ov.jpg" border="0" width="210" height="317"/title="GAME OF THRONES 7-TEMPORADA 1080 e 720 HD"></li>
+						</ul>
+						</div>
+						<br>
+						<div class="filmes">
+						<ul>
+							<li><img src="assets/images/banner lado direito/g2VCizZOMLZhGvm8osaCLSOVsSl.jpg" border="0" width="210" height="317"title="THE ORIGINALS 3-TEMPORADA 1080 e 720 HD"  /></li>
+						</ul>
+						</div>
+						<br>
+						<div class="filmes">
+						<ul>
+							<li><img src="assets/images/banner lado direito/iGyJKFUGsUpFDF2zRCFQnQspMql.jpg" border="0" width="210" height="317"title="LEGENDS OF TONORROW 2-TEMPORADA 1080 e 720 HD"/></li>
+						</ul>
+						</div>
+						<br>
+						<div class="filmes">
+						<ul>
+							<li><img src="assets/images/banner lado direito/nBkw9ebhlkQMJYzCbYc0twWe8US.jpg" border="0" width="210" height="317"title="ARROW 4-TEMPORADA 1080 e 720 HD"/></li>
+						</ul>
+						</div>
+						<br>
+						<div class="filmes">
+						<ul>
+							<li><img src="assets/images/banner lado direito/q9dObe29W4bDpgzUfOOH3ZnzDbR.jpg" border="0" width="210" height="317"title="ELEMENTARY 2-TEMPORADA 1080 e 720 HD"/></li>
+						</ul>
+						</div>
+						<br>
+						<div class="filmes ultimo_elemento">
+						<ul>
+							<li><img src="assets/images/banner lado direito/ufoGrTRbItHvqk42yNHcyoE0afM.jpg" border="0" width="210" height="317"title="SUPERGIRL 3-TEMPORADA 1080 e 720 HD"/></li>
+						</ul>
+						</div>
+						<br>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- FINAL DO BLOCO AREA PRINCIPAL -->
+	<!--BLOCO DA AREA DAS SERIES ATUALIZADAS -->		
+	<!-- ** BLOCO DA AREAS DOS BOTOES DE PROXIMA PAGINA ** -->
+	<div class="proximapagina">
+		<div class="proxima_pagina_int">
+			<div class="botoes_next">
+				<ul>
+					<li>Página <span>1</span> de 648</li>
+					<li><a href="">1</a></li>
+					<li><a href="">2</a></li>
+					<li><a href="">3</a></li>
+					<li><a href="">4</a></li>
+					<li><a href="">5</a></li>
+					<li><a href="">>></a></li>
+					<li><a href="">10</a></li>
+					<li><a href="">20</a></li>
+					<li><a href="">30</a></li>
+					<li id="pontos"><a href="">...</a></li>
+					<li><a href="">Última</a></li>
+				</ul>			
+			</div>
+		</div>
+	</div>
+	<div class="rodape">
+		<div class="rodape_int">
+			<div class="conteudosrodape">© Copyright 2018,The Pirate Filmes HD - Filmes Torrent | Sitemap - Todos os Direitos Reservados</div>	
+			<div class="meuconteudo">Esse site foi recriado apenas como treinamento para treinar os estudos de desenvolvimento web.
+			</div>
+		</div>			
+	</div>		
+</body>
+</html>
